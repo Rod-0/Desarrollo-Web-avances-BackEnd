@@ -1,0 +1,15 @@
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\Domain.deps.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\Domain.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\Domain.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\Domain.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\refint\Domain.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\Domain.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\ref\Domain.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\Infraestructure.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete

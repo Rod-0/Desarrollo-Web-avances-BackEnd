@@ -107,6 +107,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Infraestructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infraestructure.dll": {}
+        }
       }
     }
   },
@@ -451,10 +474,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    },
+    "Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../Infraestructure/Infraestructure.csproj",
+      "msbuildProject": "../Infraestructure/Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Domain >= 1.0.0",
+      "Infraestructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -491,7 +526,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj": {
+              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj"
+            },
+            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj": {
+              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
