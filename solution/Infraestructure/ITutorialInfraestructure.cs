@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Infraestructure.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,6 +8,6 @@ using System.Threading.Tasks;
 namespace Infraestructure;
 public interface ITutorialInfraestructure
 {
-    IEnumerable<string> GetAll();
+    List<Tutorial> GetAll();
     
 }

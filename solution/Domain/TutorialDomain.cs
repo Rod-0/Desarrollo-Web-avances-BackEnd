@@ -1,4 +1,5 @@
 ﻿using Infraestructure;
+using Infraestructure.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ public class TutorialDomain : ITutorialDomain
         _tutorialinfraestructure = tutorialinfraestructure;
     }
 
-    public IEnumerable<string> GetAll()
+    public List<Tutorial> GetAll()
     {
         //Reglas de negocio
         return _tutorialinfraestructure.GetAll();

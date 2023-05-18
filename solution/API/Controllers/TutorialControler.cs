@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Infraestructure;
 using Domain;
+using Infraestructure.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -21,7 +22,7 @@ namespace API.Controllers
 
         // GET: api/<Tutorial>
         [HttpGet(Name = "GetTutorials")]
-        public IEnumerable<string> Get()
+        public List<Tutorial> Get()
         {
             return _tutorialDomain.GetAll();
 

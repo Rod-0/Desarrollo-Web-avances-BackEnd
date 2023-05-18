@@ -64,9 +64,9 @@
               "target": "Package",
               "version": "[7.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.Relational.Design": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[1.1.6, )"
+              "version": "[7.0.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql.Design": {
               "target": "Package",
@@ -74,7 +74,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -214,6 +214,10 @@
             "Microsoft.EntityFrameworkCore.Relational.Design": {
               "target": "Package",
               "version": "[1.1.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql.Design": {
               "target": "Package",
