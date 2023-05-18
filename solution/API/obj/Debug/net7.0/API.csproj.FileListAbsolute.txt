@@ -35,3 +35,12 @@ d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solu
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\API.pdb
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\ref\API.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\MySqlConnector.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Newtonsoft.Json.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.Design.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Pomelo.JsonObject.dll
