@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OZyiurICZqU9BJtaRmVDzx+94i57SvNSwJoyoVi3Uv1g+ODbBq408R/+eHqMEGWi3eNLLj1isoWjlUfihlqrWw==",
+  "dgSpecHash": "dxglEO9qfSW3ITTMRfXTGc71DMl+kTmvAF4r90f3NV5ldQ1HHWRHuVdG0xT2qCB2zLD0Y2mM5/QhxiybhGxdRQ==",
   "success": true,
-  "projectFilePath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj",
+  "projectFilePath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
