@@ -40,18 +40,21 @@ namespace API.Controllers
         [HttpPost]
         public void Post([FromBody] string value)
         {
+             _tutorialDomain.Create(value);
         }
 
         // PUT api/<Tutorial>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+            _tutorialDomain.Update(id, value);
         }
 
         // DELETE api/<Tutorial>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            _tutorialDomain.Delete(id);
         }
     }
 }

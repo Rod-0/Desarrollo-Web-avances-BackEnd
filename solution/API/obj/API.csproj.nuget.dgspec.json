@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj": {}
+    "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj": {
+    "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj",
+        "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj",
+        "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Ryzen\\.nuget\\packages\\",
         "outputPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\obj\\",
         "projectStyle": "PackageReference",
@@ -33,11 +33,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj"
+              "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj": {
+                "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj"
               },
-              "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj": {
-                "projectPath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj"
+              "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj": {
+                "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj"
               }
             }
           }
@@ -100,12 +100,12 @@
         }
       }
     },
-    "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj": {
+    "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj",
-        "projectName": "Domain",
-        "projectPath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj",
+        "projectName": "LearningCenter.Domain",
+        "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj",
         "packagesPath": "C:\\Users\\Ryzen\\.nuget\\packages\\",
         "outputPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -128,8 +128,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj": {
-                "projectPath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj"
+              "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj": {
+                "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj"
               }
             }
           }
@@ -163,12 +163,12 @@
         }
       }
     },
-    "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj": {
+    "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj",
-        "projectName": "Infraestructure",
-        "projectPath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj",
+        "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj",
+        "projectName": "LearningCenter.Infraestructure",
+        "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Ryzen\\.nuget\\packages\\",
         "outputPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\obj\\",
         "projectStyle": "PackageReference",

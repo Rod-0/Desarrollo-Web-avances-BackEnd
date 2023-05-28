@@ -1598,7 +1598,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Infraestructure/1.0.0": {
+      "LearningCenter.Infraestructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1609,10 +1609,10 @@
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
         "compile": {
-          "bin/placeholder/Infraestructure.dll": {}
+          "bin/placeholder/LearningCenter.Infraestructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Infraestructure.dll": {}
+          "bin/placeholder/LearningCenter.Infraestructure.dll": {}
         }
       }
     }
@@ -5325,15 +5325,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Infraestructure/1.0.0": {
+    "LearningCenter.Infraestructure/1.0.0": {
       "type": "project",
-      "path": "../Infraestructure/Infraestructure.csproj",
-      "msbuildProject": "../Infraestructure/Infraestructure.csproj"
+      "path": "../Infraestructure/LearningCenter.Infraestructure.csproj",
+      "msbuildProject": "../Infraestructure/LearningCenter.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Infraestructure >= 1.0.0"
+      "LearningCenter.Infraestructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5343,9 +5343,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj",
+      "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj",
+      "projectName": "LearningCenter.Domain",
+      "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj",
       "packagesPath": "C:\\Users\\Ryzen\\.nuget\\packages\\",
       "outputPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\obj\\",
       "projectStyle": "PackageReference",
@@ -5368,8 +5368,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj": {
-              "projectPath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Infraestructure.csproj"
+            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj": {
+              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj"
             }
           }
         }

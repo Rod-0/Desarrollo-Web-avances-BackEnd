@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "bUm1vPqwZHJejLhtNIB7WgmMI8ngxypkYrDApg4MvgQ=",
-  "Source": "API",
-  "BasePath": "_content/API",
+  "Hash": "/XIYkqgB26BKdYfW4qrICiLvWvKrFP1f6BRDs+Kxh+U=",
+  "Source": "LearningCenter.API",
+  "BasePath": "_content/LearningCenter.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

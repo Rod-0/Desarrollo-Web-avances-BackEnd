@@ -1,0 +1,15 @@
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Domain.deps.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Domain.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Domain.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Infraestructure.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\LearningCenter.Domain.csproj.AssemblyReference.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\LearningCenter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\LearningCenter.Domain.AssemblyInfoInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\LearningCenter.Domain.AssemblyInfo.cs
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\LearningCenter.Domain.csproj.CoreCompileInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\LearningCenter.Domain.csproj.CopyComplete
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\LearningCenter.Domain.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\refint\LearningCenter.Domain.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\LearningCenter.Domain.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\ref\LearningCenter.Domain.dll

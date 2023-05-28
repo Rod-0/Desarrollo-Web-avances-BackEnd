@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qZTWlUR5nNQx6CdW2HnNXF8bkstRx5g9P+zR5aXaQPc8L9qybRCLGpt5g0KNf1v2d6MDM2wP4D4N06nj6mC1zw==",
+  "dgSpecHash": "IWLMtEP7wjgdzEtz3o8IT2UN5HKVVFGPXFDTbERY8t9grDAuek1xNpnln2mFD6NQhZoHEmfxyM/he2Dg9nJZKg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\Domain.csproj",
+  "projectFilePath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",

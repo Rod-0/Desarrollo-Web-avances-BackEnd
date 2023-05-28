@@ -1,0 +1,12 @@
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\LearningCenter.Infraestructure.deps.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\LearningCenter.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\LearningCenter.Infraestructure.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\LearningCenter.Infraestructure.csproj.AssemblyReference.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\LearningCenter.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\LearningCenter.Infraestructure.AssemblyInfoInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\LearningCenter.Infraestructure.AssemblyInfo.cs
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\LearningCenter.Infraestructure.csproj.CoreCompileInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\LearningCenter.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\refint\LearningCenter.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\LearningCenter.Infraestructure.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\ref\LearningCenter.Infraestructure.dll

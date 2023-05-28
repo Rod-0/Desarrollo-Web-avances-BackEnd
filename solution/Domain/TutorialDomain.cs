@@ -16,6 +16,7 @@ public class TutorialDomain : ITutorialDomain
         _tutorialinfraestructure = tutorialinfraestructure;
     }
 
+   
     public List<Tutorial> GetAll()
     {
         //Reglas de negocio
@@ -24,5 +25,23 @@ public class TutorialDomain : ITutorialDomain
         //TutorialInfraestructure tutorialInfraestructure = new TutorialInfraestructure();
         //return tutorialInfraestructure.GetAll();
     }
+    public bool Create(string name)
+    {
+        if (name.Length < 3) throw new Exception("less than 3 char");
+        if (name.Length > 10) throw new Exception("more than 10 char");
+
+        return _tutorialinfraestructure.Create(name);
+    }
+    public bool Update(int id, string name)
+    {
+        return _tutorialinfraestructure.Update(id, name);
+    }
+    public bool Delete(int id)
+    {
+        return _tutorialinfraestructure.Delete(id);
+    }
+
+
+
 }
 
