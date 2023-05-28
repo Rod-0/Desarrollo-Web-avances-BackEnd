@@ -10,3 +10,5 @@ d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solu
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\refint\LearningCenter.Infraestructure.dll
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\LearningCenter.Infraestructure.pdb
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\ref\LearningCenter.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\LearningCenter.Infraestructure.runtimeconfig.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\LearningCenter.Infraestructure.genruntimeconfig.cache

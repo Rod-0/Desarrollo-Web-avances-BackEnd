@@ -49,6 +49,7 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
         {
             Tutorial tutorial = new Tutorial();
             tutorial.Name = name;
+            tutorial.IsActive = true;
 
             _learningCenterDBContext.Tutorials.Add(tutorial);
             _learningCenterDBContext.SaveChanges();
@@ -80,12 +81,16 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
 
     public bool Delete(int id)
     {
-            var tutorial = _learningCenterDBContext.Tutorials.Find(id); //obtengo
+        var tutorial = _learningCenterDBContext.Tutorials.Find(id); //obtengo
 
-            _learningCenterDBContext.Tutorials.Remove(tutorial);
-            _learningCenterDBContext.SaveChanges();
+        tutorial.IsActive= false; //Modifico
 
-            return true;
+        _learningCenterDBContext.Tutorials.Update(tutorial); //modifco y mando el objeto
+
+
+        _learningCenterDBContext.SaveChanges();
+
+        return true;
     }
 
     

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\solution",
+    "\\solution\\Infraestructure"
   ],
-  "SelectedNode": "\\LearningCenter.sln",
+  "SelectedNode": "\\solution\\Infraestructure\\ITutorialInfraestructure.cs",
   "PreviewInSolutionExplorer": false
 }

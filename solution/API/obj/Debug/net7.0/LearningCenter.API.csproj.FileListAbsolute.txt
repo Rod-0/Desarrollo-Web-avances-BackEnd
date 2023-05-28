@@ -42,3 +42,8 @@ d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solu
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\LearningCenter.API.pdb
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\LearningCenter.API.genruntimeconfig.cache
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\ref\LearningCenter.API.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Humanizer.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Mono.TextTemplating.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\System.CodeDom.dll
