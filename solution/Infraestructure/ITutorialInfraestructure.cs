@@ -9,7 +9,9 @@ namespace Infraestructure;
 public interface ITutorialInfraestructure
 {
     List<Tutorial> GetAll();
-    bool Create(string name);
-    bool Update(int id, string name);
+    Tutorial GetbyId(int id);
+    List<Tutorial> GetByName(string name);
+    bool Create(Tutorial tutorial);
+    bool Update(int id, Tutorial tutorial);
     bool Delete(int id);
 }

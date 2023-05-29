@@ -39,16 +39,26 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
     
         //LearningCenterDBContext;
 
-        return _learningCenterDBContext.Tutorials.ToList();
+        return _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive).ToList();
 
     }
+    public Tutorial GetbyId(int id)
+    {
+        return _learningCenterDBContext.Tutorials.Single(tutorial => tutorial.IsActive && tutorial.Id==id);
+    }
 
-    public bool Create(string name)
+    public List<Tutorial> GetByName(string name)
+    {
+        return _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive && tutorial.Name == name).ToList();
+       // return _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive && tutorial.Name.Contains(name)).ToList(); SI SOLO LO CONTIENE
+    }
+
+    public bool Create(Tutorial tutorial)
     {
         try
         {
-            Tutorial tutorial = new Tutorial();
-            tutorial.Name = name;
+            /*Tutorial tutorial = new Tutorial();
+            tutorial.Name = name;*/
             tutorial.IsActive = true;
 
             _learningCenterDBContext.Tutorials.Add(tutorial);
@@ -57,14 +67,17 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
         }
         catch (Exception exception) { return false; }
     }
-    public bool Update(int id, string name)
+    public bool Update(int id, Tutorial input)
     {
         
             try
             {
+                //tutorial.Id = id;
+
                 var tutorial = _learningCenterDBContext.Tutorials.Find(id); //obtengo
 
-                tutorial.Name = name; //Modifico
+                tutorial.Name = input.Name; //Modifico
+                tutorial.Description = input.Description;
 
                 _learningCenterDBContext.Tutorials.Update(tutorial); //modifco y mando el objeto
 
@@ -93,6 +106,6 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
         return true;
     }
 
-    
+   
 }
 

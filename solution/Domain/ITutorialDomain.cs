@@ -9,8 +9,8 @@ namespace Domain;
 public interface ITutorialDomain
 {
     List<Tutorial> GetAll();
-    bool Create(string name);
-    bool Update(int id, string name);
+    bool Create(Tutorial Input);
+    bool Update(int id, Tutorial Input);
     bool Delete(int id);
     
 }
