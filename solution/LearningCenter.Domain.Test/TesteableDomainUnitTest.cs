@@ -2,8 +2,11 @@ namespace LearningCenter.Domain.Test;
 
 public class TesteableDomainUnitTest
 {
-    [Fact]
-    public void Test1()
+    [Theory]
+    [InlineData(10,20,30)]
+    [InlineData(10,100, 110)]
+    [InlineData(20,20, 40)]
+    public void sum_integerValues_ReturnSum(int numberA,int numberB, int expected)
 
     {
 
@@ -15,14 +18,14 @@ public class TesteableDomainUnitTest
 
         //Act - exce
     
-        int result = testeableClass.sum(10, 20);
+        int result = testeableClass.sum(numberA, numberB);
 
 
 
 
         //Assert
 
-        Assert.Equal(result, 30);
+        Assert.Equal(result, expected);
 
 
 
