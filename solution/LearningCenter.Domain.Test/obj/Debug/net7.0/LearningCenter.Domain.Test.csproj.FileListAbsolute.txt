@@ -119,3 +119,8 @@ d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solu
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\obj\Debug\net7.0\LearningCenter.Domain.Test.pdb
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\obj\Debug\net7.0\LearningCenter.Domain.Test.genruntimeconfig.cache
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\obj\Debug\net7.0\ref\LearningCenter.Domain.Test.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\Castle.Core.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\Moq.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
