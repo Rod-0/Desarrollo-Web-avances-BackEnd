@@ -1,0 +1,71 @@
+[33mcommit 263cbbbff15f7141e82acf608afeef7f57e304ab[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Wed May 31 21:07:37 2023 -0500
+
+    change name folders
+
+[33mcommit 83161e1bc927614e0222e2a75876f328ed425c2c[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Wed May 31 21:01:57 2023 -0500
+
+    add test unit
+
+[33mcommit 484ccf709a0dc8898b1568c3b3b209fa39350893[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Mon May 29 13:14:58 2023 -0500
+
+    add new changes
+
+[33mcommit 60221dda93a4224a93d337746383c174fb1f3abb[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Sun May 28 00:11:03 2023 -0500
+
+    add migrations
+
+[33mcommit 92b6f387fe9e3d3c2e508f847e08dd2d3ade36c1[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Sat May 27 22:51:09 2023 -0500
+
+    updating
+
+[33mcommit 934fbce2138c543eda22b68dc69edb7c4de98498[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Sun May 21 10:29:00 2023 -0500
+
+    ?
+
+[33mcommit db739b53ccd83a4272980911b921b7902fff1732[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Thu May 18 15:38:55 2023 -0500
+
+    connecting with DB
+
+[33mcommit 8e5c337611c1697db78529f075a6c0bbd40ed515[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Thu May 18 13:13:20 2023 -0500
+
+    put nugget package
+
+[33mcommit 5c96d7f33093eff9ee4cc5bd0946aa0321353708[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Thu May 18 01:05:00 2023 -0500
+
+    making changes
+
+[33mcommit c1478c7e902323319b043c594dc008b73654c5bf[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Wed May 17 21:03:39 2023 -0500
+
+    update
+
+[33mcommit 8f8836a98482eb1223328160322bb3e2b9353d98[m
+Author: Rodrigo Pozo <rodrigo.pozo25@gmail.com>
+Date:   Tue May 16 20:57:11 2023 -0500
+
+    update
+
+[33mcommit c3c6ee7483de8f7824c341f9e14d32d08494921a[m
+Author: Rodrigo Pozo <93230816+Rod-0@users.noreply.github.com>
+Date:   Tue May 16 17:55:52 2023 -0500
+
+    Initial commit
