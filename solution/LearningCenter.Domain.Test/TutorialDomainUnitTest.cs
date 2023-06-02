@@ -20,14 +20,14 @@ public class TutorialDomainUnitTest
         };
 
         var mockTutorialInfraestructure = new Mock<ITutorialInfraestructure>(); //se crea un falso objeto
-        mockTutorialInfraestructure.Setup(t => t.Create(tutorial)).Returns(true); //mockeo la funcion que voy a mezclar
+        mockTutorialInfraestructure.Setup(t => t.CreateAsync(tutorial)).ReturnsAsync(true); //mockeo la funcion que voy a mezclar
         TutorialDomain tutorialDomain = new TutorialDomain(mockTutorialInfraestructure.Object);
 
         //Act
-        var returnValue = tutorialDomain.Create(tutorial);
+        var returnValue = tutorialDomain.CreateAsync(tutorial);
 
         //Assert
-        Assert.True(returnValue);
+        Assert.True(returnValue.Result);
     }
 
     [Fact]
@@ -43,14 +43,14 @@ public class TutorialDomainUnitTest
         };
 
         var mockTutorialInfraestructure = new Mock<ITutorialInfraestructure>(); //se crea un falso objeto
-        mockTutorialInfraestructure.Setup(t => t.Create(tutorial)).Returns(false); //mockeo la funcion que voy a mezclar
+        mockTutorialInfraestructure.Setup(t => t.CreateAsync(tutorial)).ReturnsAsync(false); //mockeo la funcion que voy a mezclar
         TutorialDomain tutorialDomain = new TutorialDomain(mockTutorialInfraestructure.Object);
 
         //Act
-        var returnValue = tutorialDomain.Create(tutorial);
+        var returnValue = tutorialDomain.CreateAsync(tutorial);
 
         //Assert
-        Assert.False(returnValue);
+        Assert.False(returnValue.Result);
     }
 
     [Fact]
@@ -66,16 +66,16 @@ public class TutorialDomainUnitTest
         };
 
         var mockTutorialInfraestructure = new Mock<ITutorialInfraestructure>(); //se crea un falso objeto
-        mockTutorialInfraestructure.Setup(t => t.Create(tutorial)).Returns(false); //mockeo la funcion que voy a mezclar
+        mockTutorialInfraestructure.Setup(t => t.CreateAsync(tutorial)).ReturnsAsync(false); //mockeo la funcion que voy a mezclar
         TutorialDomain tutorialDomain = new TutorialDomain(mockTutorialInfraestructure.Object);
 
         //Act
         //var returnValue = tutorialDomain.Create(tutorial);
 
         //Assert
-        var ex = Assert.Throws<Exception>(() => tutorialDomain.Create(tutorial));
+        var ex = Assert.ThrowsAsync<Exception>(() => tutorialDomain.CreateAsync(tutorial));
         
-        Assert.Equal("less than 3 char", ex.Message);
+        Assert.Equal("less than 3 char", ex.Result.Message);
     }
 }
 

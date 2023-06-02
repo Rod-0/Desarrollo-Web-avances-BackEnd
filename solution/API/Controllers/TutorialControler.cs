@@ -28,9 +28,9 @@ namespace API.Controllers
 
         // GET: api/<Tutorial>
         [HttpGet(Name = "GetTutorials")]
-        public List<Tutorial> Get()
+        public async Task<List<Tutorial>> Get()
         {
-            return _tutorialInfraestructura.GetAll();
+            return await _tutorialInfraestructura.GetAll();
 
             
         }
@@ -52,7 +52,7 @@ namespace API.Controllers
 
         // POST api/<Tutorial>
         [HttpPost]
-        public void Post([FromBody] TutorialInput input)
+        public async Task PostAsync([FromBody] TutorialInput input)
         {
 
             if(ModelState.IsValid) { 
@@ -62,7 +62,7 @@ namespace API.Controllers
                     Name = input.Name,
                     Description = input.Description
                 };
-                _tutorialDomain.Create(tutorial);
+                await _tutorialDomain.CreateAsync(tutorial);
             }
             else
             {

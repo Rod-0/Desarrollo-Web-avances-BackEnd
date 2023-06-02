@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 namespace Infraestructure;
 public interface ITutorialInfraestructure
 {
-    List<Tutorial> GetAll();
+    Task<List<Tutorial>> GetAll();
     Tutorial GetbyId(int id);
     List<Tutorial> GetByName(string name);
-    bool Create(Tutorial tutorial);
+    Task<bool> CreateAsync(Tutorial tutorial);
     bool Update(int id, Tutorial tutorial);
     bool Delete(int id);
 }

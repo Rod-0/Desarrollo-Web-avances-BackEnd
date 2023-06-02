@@ -1,5 +1,6 @@
 ﻿using Infraestructure.Context;
 using Infraestructure.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +21,7 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
 
   
 
-    public List<Tutorial> GetAll()
+    public async Task<List<Tutorial>>GetAll()
     {
         /*_learningCenterDBContext.Tutorial.Add(new Tutorial()      escribiendo
         { 
@@ -39,7 +40,7 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
     
         //LearningCenterDBContext;
 
-        return _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive).ToList();
+        return await _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive).ToListAsync(); //el await nos indica que estamos un metodo asincrono
 
     }
     public Tutorial GetbyId(int id)
@@ -53,7 +54,7 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
        // return _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive && tutorial.Name.Contains(name)).ToList(); SI SOLO LO CONTIENE
     }
 
-    public bool Create(Tutorial tutorial)
+    public async Task<bool> CreateAsync(Tutorial tutorial)
     {
         try
         {
@@ -62,7 +63,7 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
             tutorial.IsActive = true;
 
             _learningCenterDBContext.Tutorials.Add(tutorial);
-            _learningCenterDBContext.SaveChanges();
+            await _learningCenterDBContext.SaveChangesAsync();
             return true;
         }
         catch (Exception exception) { return false; }

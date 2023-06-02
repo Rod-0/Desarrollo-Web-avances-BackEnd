@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 namespace Domain;
 public interface ITutorialDomain
 {
-    List<Tutorial> GetAll();
-    bool Create(Tutorial Input);
+    //Task<List<Tutorial>> GetAll();
+    Task<bool> CreateAsync(Tutorial Input);
     bool Update(int id, Tutorial Input);
     bool Delete(int id);
     
