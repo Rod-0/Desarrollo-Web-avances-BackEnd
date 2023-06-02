@@ -1,6 +1,7 @@
 using Domain;
 using Infraestructure;
 using Infraestructure.Context;
+using LearningCenter.API.Mapper;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,10 @@ builder.Services.AddScoped<ITutorialInfraestructure, TutorialMySQLInfraestrcture
 
 var connectionString = builder.Configuration.GetConnectionString("learningCenterConnection");
 var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
+
+builder.Services.AddAutoMapper(
+    typeof(ModelToResponse),
+    typeof(InputToModel));
 
 builder.Services.AddDbContext<LearningCenterDBContext>(
     dbContextOptions =>

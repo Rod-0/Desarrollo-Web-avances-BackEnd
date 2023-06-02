@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "vY1P4RaQb4nalueY1Y0u10GY8JG1hHcZjPfoh36VRLVWQKUAe37BWfZvB6p/7a/NyqVvG934l1GIDTiPxCPRMg==",
+  "dgSpecHash": "V4J9ANpe3Z0+KN3kig+LA4DlB/zMoSVoIMHk4oIl56s6eekT8j1E2IFGg/GTOG3vHiqenjB+IukbwDbMF6PlsA==",
   "success": true,
   "projectFilePath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\LearningCenter.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ryzen\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Ryzen\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Ryzen\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
