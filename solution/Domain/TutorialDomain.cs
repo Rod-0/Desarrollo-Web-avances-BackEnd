@@ -1,5 +1,6 @@
-﻿using Infraestructure;
-using Infraestructure.Models;
+﻿using Infraestructure.Models;
+using LearningCenter.Domain.Interfaces;
+using LearningCenter.Infraestructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,13 +33,13 @@ public class TutorialDomain : ITutorialDomain
 
         return await _tutorialinfraestructure.CreateAsync(input);
     }
-    public bool Update(int id, Tutorial tutorial)
+    public async Task<bool> Update(int id, Tutorial tutorial)
     {
-        return _tutorialinfraestructure.Update(id, tutorial);
+        return await _tutorialinfraestructure.Update(id, tutorial);
     }
-    public bool Delete(int id)
+    public async Task<bool> Delete(int id)
     {
-        return _tutorialinfraestructure.Delete(id);
+        return await _tutorialinfraestructure.Delete(id);
     }
 
 

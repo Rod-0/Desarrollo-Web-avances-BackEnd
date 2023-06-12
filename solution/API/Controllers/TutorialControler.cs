@@ -1,10 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Infraestructure;
-using Domain;
 using Infraestructure.Models;
 using LearningCenter.API.Input;
 using LearningCenter.API.Response;
 using AutoMapper;
+using LearningCenter.Domain.Interfaces;
+using LearningCenter.Infraestructure.Interfaces;
+using LearningCenter.Infraestructure.Models;
+using LearningCenter.Infraestructure;
+using LearningCenter.Domain;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -41,18 +44,23 @@ namespace API.Controllers
         }
 
         [HttpGet("GetByName")]
-        public List<Tutorial> Get(string name)
+        public async Task<List<TutorialResponse>> Get(string name)
         {
-            return _tutorialInfraestructura.GetByName(name);
+            var result = await _tutorialInfraestructura.GetByName(name);
+            var list = _mapper.Map<List<Tutorial>, List<TutorialResponse>>(result);
+            return list;
 
 
         }
 
         // GET api/<Tutorial>/5
         [HttpGet("{id}",Name ="Get")]
-        public Tutorial Get(int id)
+        public async Task<TutorialResponse> Get(int id)
         {
-           return _tutorialInfraestructura.GetbyId(id);   
+            var tutorialFound = await _tutorialInfraestructura.GetbyId(id);
+            var result = _mapper.Map<Tutorial, TutorialResponse>(tutorialFound);
+
+            return result;
         }
 
         // POST api/<Tutorial>
@@ -81,28 +89,28 @@ namespace API.Controllers
 
         // PUT api/<Tutorial>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] TutorialInput input)
+        public async Task Put(int id, [FromBody] TutorialInput input)
         {
             if (ModelState.IsValid)
             {
-                Tutorial tutorial = new Tutorial()
-                {
-                    Name = input.Name,
-                    Description = input.Description
-                };
-                _tutorialDomain.Update(id, tutorial);
+                var tutorial = _mapper.Map<TutorialInput, Tutorial>(input);
+
+
+                await _tutorialDomain.Update(id,tutorial);
+
             }
             else
             {
+
                 StatusCode(400);
             }
         }
 
         // DELETE api/<Tutorial>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            _tutorialDomain.Delete(id);
+            await _tutorialDomain.Delete(id);
         }
     }
 }

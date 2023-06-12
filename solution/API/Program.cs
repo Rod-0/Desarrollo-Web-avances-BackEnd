@@ -2,6 +2,8 @@ using Domain;
 using Infraestructure;
 using Infraestructure.Context;
 using LearningCenter.API.Mapper;
+using LearningCenter.Domain.Interfaces;
+using LearningCenter.Infraestructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

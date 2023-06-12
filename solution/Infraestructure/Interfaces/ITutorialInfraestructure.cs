@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infraestructure;
+namespace LearningCenter.Infraestructure.Interfaces;
 public interface ITutorialInfraestructure
 {
     Task<List<Tutorial>> GetAll();
-    Tutorial GetbyId(int id);
-    List<Tutorial> GetByName(string name);
+    Task<Tutorial> GetbyId(int id);
+    Task<List<Tutorial>> GetByName(string name);
     Task<bool> CreateAsync(Tutorial tutorial);
-    bool Update(int id, Tutorial tutorial);
-    bool Delete(int id);
+    Task<bool> Update(int id, Tutorial tutorial);
+    Task<bool> Delete(int id);
 }

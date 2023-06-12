@@ -1,6 +1,6 @@
 ﻿using Domain;
-using Infraestructure;
 using Infraestructure.Models;
+using LearningCenter.Infraestructure.Interfaces;
 using Moq;
 
 namespace LearningCenter.Domain.Test;

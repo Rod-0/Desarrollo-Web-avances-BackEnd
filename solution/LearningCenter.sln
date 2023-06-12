@@ -4,12 +4,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCenter.API", "API\LearningCenter.API.csproj", "{09F2E048-0D2B-448E-BDF0-69FC6B504CCE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB08A458-5C66-4748-9B32-DBD67ECBF42F} = {EB08A458-5C66-4748-9B32-DBD67ECBF42F}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCenter.Domain", "Domain\LearningCenter.Domain.csproj", "{BC8E1A22-461E-47D0-BFFE-E8CB7A2EEFB0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB08A458-5C66-4748-9B32-DBD67ECBF42F} = {EB08A458-5C66-4748-9B32-DBD67ECBF42F}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCenter.Infraestructure", "Infraestructure\LearningCenter.Infraestructure.csproj", "{9E7ECFF6-FDC5-4B3D-A5CA-9F97B0AB577F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCenter.Domain.Test", "LearningCenter.Domain.Test\LearningCenter.Domain.Test.csproj", "{E47331B7-F4D6-4B30-9C5B-98011F4198FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCenter.Domain.Test", "LearningCenter.Domain.Test\LearningCenter.Domain.Test.csproj", "{E47331B7-F4D6-4B30-9C5B-98011F4198FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningCenter.Shared", "LearningCenter.Shared\LearningCenter.Shared.csproj", "{EB08A458-5C66-4748-9B32-DBD67ECBF42F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,10 @@ Global
 		{E47331B7-F4D6-4B30-9C5B-98011F4198FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E47331B7-F4D6-4B30-9C5B-98011F4198FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E47331B7-F4D6-4B30-9C5B-98011F4198FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB08A458-5C66-4748-9B32-DBD67ECBF42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB08A458-5C66-4748-9B32-DBD67ECBF42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB08A458-5C66-4748-9B32-DBD67ECBF42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB08A458-5C66-4748-9B32-DBD67ECBF42F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

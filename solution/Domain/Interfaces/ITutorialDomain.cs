@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain;
+namespace LearningCenter.Domain.Interfaces;
 public interface ITutorialDomain
 {
     //Task<List<Tutorial>> GetAll();
     Task<bool> CreateAsync(Tutorial Input);
-    bool Update(int id, Tutorial Input);
-    bool Delete(int id);
-    
+    Task<bool> Update(int id, Tutorial Input);
+    Task<bool> Delete(int id);
+
 }
 

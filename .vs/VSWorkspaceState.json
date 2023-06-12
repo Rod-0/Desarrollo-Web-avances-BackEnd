@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\solution",
+    "\\solution\\API",
+    "\\solution\\API\\Controllers",
+    "\\solution\\LearningCenter.Domain.Test"
   ],
-  "SelectedNode": "\\LearningCenter.sln",
+  "SelectedNode": "\\solution\\API\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

@@ -1,5 +1,6 @@
 ﻿using Infraestructure.Context;
 using Infraestructure.Models;
+using LearningCenter.Infraestructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -43,14 +44,14 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
         return await _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive).ToListAsync(); //el await nos indica que estamos un metodo asincrono
 
     }
-    public Tutorial GetbyId(int id)
+    public async Task<Tutorial> GetbyId(int id)
     {
-        return _learningCenterDBContext.Tutorials.Single(tutorial => tutorial.IsActive && tutorial.Id==id);
+        return await _learningCenterDBContext.Tutorials.SingleAsync(tutorial => tutorial.IsActive && tutorial.Id==id);
     }
 
-    public List<Tutorial> GetByName(string name)
+    public async Task<List<Tutorial>> GetByName(string name)
     {
-        return _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive && tutorial.Name == name).ToList();
+        return await _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive && tutorial.Name == name).ToListAsync();
        // return _learningCenterDBContext.Tutorials.Where(tutorial => tutorial.IsActive && tutorial.Name.Contains(name)).ToList(); SI SOLO LO CONTIENE
     }
 
@@ -68,7 +69,7 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
         }
         catch (Exception exception) { return false; }
     }
-    public bool Update(int id, Tutorial input)
+    public async Task<bool> Update(int id, Tutorial input)
     {
         
             try
@@ -83,7 +84,7 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
                 _learningCenterDBContext.Tutorials.Update(tutorial); //modifco y mando el objeto
 
 
-                _learningCenterDBContext.SaveChanges();
+                await _learningCenterDBContext.SaveChangesAsync();
 
                 return true;
             }
@@ -93,7 +94,7 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
             }
         }
 
-    public bool Delete(int id)
+    public async Task<bool> Delete(int id)
     {
         var tutorial = _learningCenterDBContext.Tutorials.Find(id); //obtengo
 
@@ -102,7 +103,7 @@ public class TutorialMySQLInfraestrcture : ITutorialInfraestructure
         _learningCenterDBContext.Tutorials.Update(tutorial); //modifco y mando el objeto
 
 
-        _learningCenterDBContext.SaveChanges();
+        await _learningCenterDBContext.SaveChangesAsync();
 
         return true;
     }
