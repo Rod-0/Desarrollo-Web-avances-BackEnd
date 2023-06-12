@@ -1720,16 +1720,6 @@
         "runtime": {
           "bin/placeholder/LearningCenter.Infraestructure.dll": {}
         }
-      },
-      "LearningCenter.Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/LearningCenter.Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LearningCenter.Shared.dll": {}
-        }
       }
     }
   },
@@ -5709,17 +5699,11 @@
       "type": "project",
       "path": "../Infraestructure/LearningCenter.Infraestructure.csproj",
       "msbuildProject": "../Infraestructure/LearningCenter.Infraestructure.csproj"
-    },
-    "LearningCenter.Shared/1.0.0": {
-      "type": "project",
-      "path": "../LearningCenter.Shared/LearningCenter.Shared.csproj",
-      "msbuildProject": "../LearningCenter.Shared/LearningCenter.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "LearningCenter.Infraestructure >= 1.0.0",
-      "LearningCenter.Shared >= 1.0.0",
       "Microsoft.IdentityModel.Tokens >= 6.31.0",
       "System.IdentityModel.Tokens.Jwt >= 6.31.0"
     ]
@@ -5758,9 +5742,6 @@
           "projectReferences": {
             "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj": {
               "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj"
-            },
-            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\LearningCenter.Shared\\LearningCenter.Shared.csproj": {
-              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\LearningCenter.Shared\\LearningCenter.Shared.csproj"
             }
           }
         }
