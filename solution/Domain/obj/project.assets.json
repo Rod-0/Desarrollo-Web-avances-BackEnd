@@ -1704,7 +1704,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "LearningCenter.Infraestructure/1.0.0": {
+      "Project.Infraestructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1715,10 +1715,10 @@
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
         "compile": {
-          "bin/placeholder/LearningCenter.Infraestructure.dll": {}
+          "bin/placeholder/Project.Infraestructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LearningCenter.Infraestructure.dll": {}
+          "bin/placeholder/Project.Infraestructure.dll": {}
         }
       }
     }
@@ -5695,16 +5695,16 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "LearningCenter.Infraestructure/1.0.0": {
+    "Project.Infraestructure/1.0.0": {
       "type": "project",
-      "path": "../Infraestructure/LearningCenter.Infraestructure.csproj",
-      "msbuildProject": "../Infraestructure/LearningCenter.Infraestructure.csproj"
+      "path": "../Infraestructure/Project.Infraestructure.csproj",
+      "msbuildProject": "../Infraestructure/Project.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "LearningCenter.Infraestructure >= 1.0.0",
       "Microsoft.IdentityModel.Tokens >= 6.31.0",
+      "Project.Infraestructure >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 6.31.0"
     ]
   },
@@ -5740,8 +5740,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj": {
-              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj"
+            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Project.Infraestructure.csproj": {
+              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Project.Infraestructure.csproj"
             }
           }
         }

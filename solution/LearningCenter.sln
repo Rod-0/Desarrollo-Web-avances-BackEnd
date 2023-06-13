@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCenter.API", "API\L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCenter.Domain", "Domain\LearningCenter.Domain.csproj", "{BC8E1A22-461E-47D0-BFFE-E8CB7A2EEFB0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCenter.Infraestructure", "Infraestructure\LearningCenter.Infraestructure.csproj", "{9E7ECFF6-FDC5-4B3D-A5CA-9F97B0AB577F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Infraestructure", "Infraestructure\Project.Infraestructure.csproj", "{9E7ECFF6-FDC5-4B3D-A5CA-9F97B0AB577F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningCenter.Domain.Test", "LearningCenter.Domain.Test\LearningCenter.Domain.Test.csproj", "{E47331B7-F4D6-4B30-9C5B-98011F4198FA}"
 EndProject

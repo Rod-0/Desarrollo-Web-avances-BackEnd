@@ -2195,8 +2195,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "LearningCenter.Infraestructure": "1.0.0",
           "Microsoft.IdentityModel.Tokens": "6.31.0",
+          "Project.Infraestructure": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "6.31.0"
         },
         "compile": {
@@ -2206,7 +2206,7 @@
           "bin/placeholder/LearningCenter.Domain.dll": {}
         }
       },
-      "LearningCenter.Infraestructure/1.0.0": {
+      "Project.Infraestructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -2217,10 +2217,10 @@
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
         "compile": {
-          "bin/placeholder/LearningCenter.Infraestructure.dll": {}
+          "bin/placeholder/Project.Infraestructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LearningCenter.Infraestructure.dll": {}
+          "bin/placeholder/Project.Infraestructure.dll": {}
         }
       }
     }
@@ -6799,10 +6799,10 @@
       "path": "../Domain/LearningCenter.Domain.csproj",
       "msbuildProject": "../Domain/LearningCenter.Domain.csproj"
     },
-    "LearningCenter.Infraestructure/1.0.0": {
+    "Project.Infraestructure/1.0.0": {
       "type": "project",
-      "path": "../Infraestructure/LearningCenter.Infraestructure.csproj",
-      "msbuildProject": "../Infraestructure/LearningCenter.Infraestructure.csproj"
+      "path": "../Infraestructure/Project.Infraestructure.csproj",
+      "msbuildProject": "../Infraestructure/Project.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {

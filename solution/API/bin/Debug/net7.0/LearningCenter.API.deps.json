@@ -11,7 +11,6 @@
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "LearningCenter.Domain": "1.0.0",
-          "LearningCenter.Infraestructure": "1.0.0",
           "Microsoft.AspNet.Mvc": "5.2.9",
           "Microsoft.AspNetCore.Authorization": "7.0.5",
           "Microsoft.AspNetCore.Http": "2.2.2",
@@ -22,6 +21,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2",
+          "Project.Infraestructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -1692,15 +1692,15 @@
       },
       "LearningCenter.Domain/1.0.0": {
         "dependencies": {
-          "LearningCenter.Infraestructure": "1.0.0",
           "Microsoft.IdentityModel.Tokens": "6.31.0",
+          "Project.Infraestructure": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "6.31.0"
         },
         "runtime": {
           "LearningCenter.Domain.dll": {}
         }
       },
-      "LearningCenter.Infraestructure/1.0.0": {
+      "Project.Infraestructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.5",
@@ -1709,7 +1709,7 @@
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
         "runtime": {
-          "LearningCenter.Infraestructure.dll": {}
+          "Project.Infraestructure.dll": {}
         }
       }
     }
@@ -3083,7 +3083,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LearningCenter.Infraestructure/1.0.0": {
+    "Project.Infraestructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

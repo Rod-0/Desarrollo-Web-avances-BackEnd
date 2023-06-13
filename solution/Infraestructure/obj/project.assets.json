@@ -5642,9 +5642,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj",
-      "projectName": "LearningCenter.Infraestructure",
-      "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\LearningCenter.Infraestructure.csproj",
+      "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Project.Infraestructure.csproj",
+      "projectName": "Project.Infraestructure",
+      "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Project.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\Ryzen\\.nuget\\packages\\",
       "outputPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\obj\\",
       "projectStyle": "PackageReference",

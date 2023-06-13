@@ -23,9 +23,7 @@ d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solu
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\System.CodeDom.dll
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\LearningCenter.Domain.dll
-d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\LearningCenter.Infraestructure.dll
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\LearningCenter.Domain.pdb
-d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\LearningCenter.Infraestructure.pdb
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\LearningCenter.API.csproj.AssemblyReference.cache
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\LearningCenter.API.GeneratedMSBuildEditorConfig.editorconfig
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\LearningCenter.API.AssemblyInfoInputs.cache
@@ -67,3 +65,5 @@ d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solu
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\System.Security.Permissions.dll
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\LearningCenter.API.RazorAssemblyInfo.cache
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\obj\Debug\net7.0\LearningCenter.API.RazorAssemblyInfo.cs
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Project.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\API\bin\Debug\net7.0\Project.Infraestructure.pdb

@@ -1,0 +1,14 @@
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\Project.Infraestructure.deps.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\Project.Infraestructure.runtimeconfig.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\Project.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\Project.Infraestructure.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\Project.Infraestructure.csproj.AssemblyReference.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\Project.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\Project.Infraestructure.AssemblyInfoInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\Project.Infraestructure.AssemblyInfo.cs
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\Project.Infraestructure.csproj.CoreCompileInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\Project.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\refint\Project.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\Project.Infraestructure.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\Project.Infraestructure.genruntimeconfig.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\ref\Project.Infraestructure.dll

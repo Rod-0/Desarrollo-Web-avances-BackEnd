@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "LearningCenter.Domain/1.0.0": {
         "dependencies": {
-          "LearningCenter.Infraestructure": "1.0.0",
           "Microsoft.IdentityModel.Tokens": "6.31.0",
+          "Project.Infraestructure": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "6.31.0"
         },
         "runtime": {
@@ -924,7 +924,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "LearningCenter.Infraestructure/1.0.0": {
+      "Project.Infraestructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.5",
@@ -933,7 +933,7 @@
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
         "runtime": {
-          "LearningCenter.Infraestructure.dll": {}
+          "Project.Infraestructure.dll": {}
         }
       }
     }
@@ -1637,7 +1637,7 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
-    "LearningCenter.Infraestructure/1.0.0": {
+    "Project.Infraestructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
