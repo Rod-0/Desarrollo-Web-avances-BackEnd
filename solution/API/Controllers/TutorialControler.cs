@@ -8,6 +8,7 @@ using LearningCenter.Infraestructure.Interfaces;
 using LearningCenter.Infraestructure.Models;
 using LearningCenter.Infraestructure;
 using LearningCenter.Domain;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -29,12 +30,13 @@ namespace API.Controllers
             _tutorialDomain = tutorialDomain;
             _tutorialInfraestructura = tutorialInfraestructura;
             _mapper = mapper;
-        }    
+        }
 
         // LECTURA ES DIRECTO ENTRE EL API Y LA INFRAESTRUCTURA
 
 
         // GET: api/<Tutorial>
+        [Authorize("admin")]
         [HttpGet(Name = "GetTutorials")]
         public async Task<List<TutorialResponse>> Get()
         {

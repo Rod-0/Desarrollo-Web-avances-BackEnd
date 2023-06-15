@@ -1,0 +1,15 @@
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\bin\Debug\net7.0\LearningCenter.Shared.exe
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\bin\Debug\net7.0\LearningCenter.Shared.deps.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\bin\Debug\net7.0\LearningCenter.Shared.runtimeconfig.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\bin\Debug\net7.0\LearningCenter.Shared.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\bin\Debug\net7.0\LearningCenter.Shared.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\LearningCenter.Shared.csproj.AssemblyReference.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\LearningCenter.Shared.GeneratedMSBuildEditorConfig.editorconfig
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\LearningCenter.Shared.AssemblyInfoInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\LearningCenter.Shared.AssemblyInfo.cs
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\LearningCenter.Shared.csproj.CoreCompileInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\LearningCenter.Shared.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\refint\LearningCenter.Shared.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\LearningCenter.Shared.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\LearningCenter.Shared.genruntimeconfig.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Shared\obj\Debug\net7.0\ref\LearningCenter.Shared.dll

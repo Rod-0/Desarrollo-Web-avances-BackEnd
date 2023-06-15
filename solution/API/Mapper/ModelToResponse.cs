@@ -11,6 +11,7 @@ public class ModelToResponse:Profile
     {
         CreateMap<Tutorial, TutorialResponse>();
         CreateMap<User, UserResponse>();
+        CreateMap<Post, PostResponse>();
 
     }
 }

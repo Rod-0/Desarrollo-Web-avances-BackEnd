@@ -22,6 +22,7 @@ public class LearningCenterDBContext : DbContext
 
     public DbSet<Category> Categories{ get; set; }
     public DbSet<User> Users { get; set; }
+    public DbSet<Post> Posts { get; set; }
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -29,7 +30,7 @@ public class LearningCenterDBContext : DbContext
         if (!optionsBuilder.IsConfigured)
         {
             var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));  
-            optionsBuilder.UseMySql("Server=localhost,3306;Uid=root;Pwd=70162057;Database=LearningDB;", serverVersion);
+            optionsBuilder.UseMySql("Server=localhost,3306;Uid=root;Pwd=70162057;Database=Learnningdbuser;", serverVersion);
         }
     }
 
@@ -55,6 +56,12 @@ public class LearningCenterDBContext : DbContext
         builder.Entity<User>().Property(c => c.Username).IsRequired().HasMaxLength(60);
         builder.Entity<User>().Property(c => c.Password).IsRequired().HasMaxLength(120);
         builder.Entity<User>().Property(c => c.IsActive).IsRequired().HasDefaultValue(true);
+
+        builder.Entity<Post>().ToTable("Posts");
+        builder.Entity<Post>().HasKey(p => p.Id);
+        builder.Entity<Post>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Post>().Property(c => c.Title).IsRequired().HasMaxLength(60);
+
     }
 
 

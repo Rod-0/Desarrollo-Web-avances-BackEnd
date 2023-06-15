@@ -13,3 +13,8 @@ d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solu
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\refint\LearningCenter.Domain.dll
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\LearningCenter.Domain.pdb
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\obj\Debug\net7.0\ref\LearningCenter.Domain.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Shared.deps.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Shared.runtimeconfig.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Shared.exe
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Shared.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Domain\bin\Debug\net7.0\LearningCenter.Shared.pdb

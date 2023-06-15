@@ -2,7 +2,9 @@ using Domain;
 using Infraestructure;
 using Infraestructure.Context;
 using LearningCenter.API.Mapper;
+using LearningCenter.Domain;
 using LearningCenter.Domain.Interfaces;
+using LearningCenter.Infraestructure;
 using LearningCenter.Infraestructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,12 +19,17 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ITutorialDomain, TutorialDomain>();
 builder.Services.AddScoped<ITutorialInfraestructure, TutorialMySQLInfraestrcture>(); //aqui se instancias las infraestrcutures si despues se cambia es aqui donde se instancia esa nueva
+builder.Services.AddScoped<IUserInfraestructure, UserInfraestructure>();
+builder.Services.AddScoped<IUserDomain, UserDomain>();
+builder.Services.AddScoped<IEncryptDomain, EncryptDomain>();
+builder.Services.AddScoped<ITokenDomain, TokenDomain>();
+builder.Services.AddScoped<IPostInfraestructure, PostInfraestructure>();
 
 
 
 //Conexion a sql
 
-var connectionString = builder.Configuration.GetConnectionString("learningCenterConnection");
+var connectionString = builder.Configuration.GetConnectionString("learningCenterConnectionUser");
 var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
 
 builder.Services.AddAutoMapper(
