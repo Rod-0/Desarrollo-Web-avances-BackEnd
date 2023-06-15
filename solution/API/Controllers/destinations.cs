@@ -13,16 +13,16 @@ using LearningCenter.Infraestructure.Interfaces;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
-    public class DestinationControler : ControllerBase
+    public class destinations : ControllerBase
     {
         //inyeccion
         private IDestinationDomain _destinationDomain;
  
         private IMapper _mapper;
 
-        public DestinationControler(IDestinationDomain destinationDomain, IMapper mapper)
+        public destinations(IDestinationDomain destinationDomain, IMapper mapper)
         {
             _destinationDomain = destinationDomain;
             _mapper = mapper;
