@@ -15,21 +15,21 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<ITutorialDomain, TutorialDomain>();
-builder.Services.AddScoped<ITutorialInfraestructure, TutorialMySQLInfraestrcture>(); //aqui se instancias las infraestrcutures si despues se cambia es aqui donde se instancia esa nueva
+builder.Services.AddScoped<IDestinationDomain, DestinationDomain>();
+builder.Services.AddScoped<IDestinationInfraestructure, DestinationInfraestrcture>(); //aqui se instancias las infraestrcutures si despues se cambia es aqui donde se instancia esa nueva
 
 
 
 //Conexion a sql
 
-var connectionString = builder.Configuration.GetConnectionString("learningCenterConnection");
+var connectionString = builder.Configuration.GetConnectionString("SuscriptionsConnection");
 var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
 
 builder.Services.AddAutoMapper(
     typeof(ModelToResponse),
     typeof(InputToModel));
 
-builder.Services.AddDbContext<LearningCenterDBContext>(
+builder.Services.AddDbContext<SuscriptionDBContext>(
     dbContextOptions =>
     {
         dbContextOptions.UseMySql(connectionString,
@@ -46,7 +46,7 @@ builder.Services.AddDbContext<LearningCenterDBContext>(
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
-using (var context = scope.ServiceProvider.GetService<LearningCenterDBContext>())
+using (var context = scope.ServiceProvider.GetService<SuscriptionDBContext>())
 {
     context.Database.EnsureCreated();
 }

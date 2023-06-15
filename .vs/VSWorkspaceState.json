@@ -4,8 +4,11 @@
     "\\solution",
     "\\solution\\API",
     "\\solution\\API\\Controllers",
+    "\\solution\\Domain",
+    "\\solution\\Infraestructure",
+    "\\solution\\Infraestructure\\Context",
     "\\solution\\LearningCenter.Domain.Test"
   ],
-  "SelectedNode": "\\solution\\API\\appsettings.json",
+  "SelectedNode": "\\solution\\LearningCenter.sln",
   "PreviewInSolutionExplorer": false
 }
