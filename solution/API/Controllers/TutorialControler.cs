@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
-    //[Authorize("admin,account")]
+    [Authorize("admin,manager")]
     [Route("api/[controller]")]
     [ApiController]
     public class TutorialControler : ControllerBase
@@ -37,7 +37,7 @@ namespace API.Controllers
 
 
         // GET: api/<Tutorial>
-        //[Authorize(Roles ="admin")]
+        
         [HttpGet(Name = "GetTutorials")]
         public async Task<List<TutorialResponse>> Get()
         {
@@ -46,7 +46,7 @@ namespace API.Controllers
             return list;
         }
 
-        [HttpGet("GetByName")]
+        [HttpGet("GetBy/{Name}")]
         public async Task<List<TutorialResponse>> Get(string name)
         {
             var result = await _tutorialInfraestructura.GetByName(name);
@@ -67,6 +67,7 @@ namespace API.Controllers
         }
 
         // POST api/<Tutorial>
+     
         [HttpPost]
         public async Task PostAsync([FromBody] TutorialInput input)
         {
@@ -91,6 +92,7 @@ namespace API.Controllers
         }
 
         // PUT api/<Tutorial>/5
+       
         [HttpPut("{id}")]
         public async Task Put(int id, [FromBody] TutorialInput input)
         {
@@ -110,6 +112,7 @@ namespace API.Controllers
         }
 
         // DELETE api/<Tutorial>/5
+        
         [HttpDelete("{id}")]
         public async Task Delete(int id)
         {

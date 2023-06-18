@@ -37,6 +37,7 @@ builder.Services.AddAutoMapper(
     typeof(ModelToResponse),
     typeof(InputToModel));
 
+//jwt
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

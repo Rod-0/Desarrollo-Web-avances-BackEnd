@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LearningCenter.API.Controllers
 {
-
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
