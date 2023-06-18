@@ -1,10 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Infraestructure.Models;
 using LearningCenter.API.Input;
-
 using AutoMapper;
-using LearningCenter.Domain.Interfaces;
 using LearningCenter.Infraestructure.Interfaces;
+using LearningCenter.Domain.Interfaces;
 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860

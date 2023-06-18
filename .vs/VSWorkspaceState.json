@@ -7,8 +7,8 @@
     "\\solution\\Domain",
     "\\solution\\Infraestructure",
     "\\solution\\Infraestructure\\Context",
-    "\\solution\\LearningCenter.Domain.Test"
+    "\\solution\\Infraestructure\\Models"
   ],
-  "SelectedNode": "\\solution\\LearningCenter.sln",
+  "SelectedNode": "\\solution\\Infraestructure\\Models\\Destination.cs",
   "PreviewInSolutionExplorer": false
 }

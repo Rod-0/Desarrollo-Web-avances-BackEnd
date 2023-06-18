@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4bIxUw2v1Woc1kjyr+vJellauqUFtFoDOEgiT8w5I4mbOXLJO82xtndupBsIr75vLMNvMLW4+KA1cU1/S/QZtA==",
+  "dgSpecHash": "O4t8hlRpj2P4GXAf0LhNyyjpj7tGc6ZMdTkgtsOmYPdfQLNfnWIUUQh00ShVag8soUwRyeNI2QvKQnz3KiAviQ==",
   "success": true,
-  "projectFilePath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Project.Infraestructure.csproj",
+  "projectFilePath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\travels.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ryzen\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Ryzen\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dc30ErY3NfmxKkLy6R1ku6keje2F6yNVKqHy324k4IQuY9vawwhVrJb5j/3nh2pfnd41CzhCHPvPdMiLtujFgQ==",
+  "dgSpecHash": "2zjMYRK4fuq2UWQKdmDtPgpX0LlA1iWv4LXSotxLHt6raH3M5tCw7LNSNqd2d2xByl17BSPkKGO9R/jIR/lSKg==",
   "success": true,
-  "projectFilePath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\LearningCenter.API.csproj",
+  "projectFilePath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\travels.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ryzen\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Ryzen\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

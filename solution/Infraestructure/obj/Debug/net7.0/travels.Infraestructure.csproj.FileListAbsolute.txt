@@ -1,0 +1,14 @@
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\travels.Infraestructure.deps.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\travels.Infraestructure.runtimeconfig.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\travels.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\bin\Debug\net7.0\travels.Infraestructure.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\travels.Infraestructure.csproj.AssemblyReference.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\travels.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\travels.Infraestructure.AssemblyInfoInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\travels.Infraestructure.AssemblyInfo.cs
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\travels.Infraestructure.csproj.CoreCompileInputs.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\travels.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\refint\travels.Infraestructure.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\travels.Infraestructure.pdb
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\travels.Infraestructure.genruntimeconfig.cache
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\Infraestructure\obj\Debug\net7.0\ref\travels.Infraestructure.dll

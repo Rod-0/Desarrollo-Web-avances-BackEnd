@@ -3401,22 +3401,22 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "LearningCenter.Domain/1.0.0": {
+      "travels.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.IdentityModel.Tokens": "6.31.0",
-          "Project.Infraestructure": "1.0.0",
-          "System.IdentityModel.Tokens.Jwt": "6.31.0"
+          "System.IdentityModel.Tokens.Jwt": "6.31.0",
+          "travels.Infraestructure": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/LearningCenter.Domain.dll": {}
+          "bin/placeholder/travels.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LearningCenter.Domain.dll": {}
+          "bin/placeholder/travels.Domain.dll": {}
         }
       },
-      "Project.Infraestructure/1.0.0": {
+      "travels.Infraestructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -3427,10 +3427,10 @@
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
         "compile": {
-          "bin/placeholder/Project.Infraestructure.dll": {}
+          "bin/placeholder/travels.Infraestructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Project.Infraestructure.dll": {}
+          "bin/placeholder/travels.Infraestructure.dll": {}
         }
       }
     }
@@ -9619,22 +9619,21 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "LearningCenter.Domain/1.0.0": {
+    "travels.Domain/1.0.0": {
       "type": "project",
-      "path": "../Domain/LearningCenter.Domain.csproj",
-      "msbuildProject": "../Domain/LearningCenter.Domain.csproj"
+      "path": "../Domain/travels.Domain.csproj",
+      "msbuildProject": "../Domain/travels.Domain.csproj"
     },
-    "Project.Infraestructure/1.0.0": {
+    "travels.Infraestructure/1.0.0": {
       "type": "project",
-      "path": "../Infraestructure/Project.Infraestructure.csproj",
-      "msbuildProject": "../Infraestructure/Project.Infraestructure.csproj"
+      "path": "../Infraestructure/travels.Infraestructure.csproj",
+      "msbuildProject": "../Infraestructure/travels.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "LearningCenter.Domain >= 1.0.0",
       "Microsoft.AspNet.Mvc >= 5.2.9",
       "Microsoft.AspNetCore.Authorization >= 7.0.5",
       "Microsoft.AspNetCore.Http >= 2.2.2",
@@ -9645,8 +9644,9 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0",
       "Pomelo.EntityFrameworkCore.MySql.Design >= 1.1.2",
-      "Project.Infraestructure >= 1.0.0",
-      "Swashbuckle.AspNetCore >= 6.5.0"
+      "Swashbuckle.AspNetCore >= 6.5.0",
+      "travels.Domain >= 1.0.0",
+      "travels.Infraestructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9656,9 +9656,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\LearningCenter.API.csproj",
-      "projectName": "LearningCenter.API",
-      "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\LearningCenter.API.csproj",
+      "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\travels.API.csproj",
+      "projectName": "travels.API",
+      "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\travels.API.csproj",
       "packagesPath": "C:\\Users\\Ryzen\\.nuget\\packages\\",
       "outputPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\API\\obj\\",
       "projectStyle": "PackageReference",
@@ -9682,11 +9682,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj": {
-              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj"
+            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\travels.Domain.csproj": {
+              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\travels.Domain.csproj"
             },
-            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Project.Infraestructure.csproj": {
-              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Project.Infraestructure.csproj"
+            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\travels.Infraestructure.csproj": {
+              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\travels.Infraestructure.csproj"
             }
           }
         }

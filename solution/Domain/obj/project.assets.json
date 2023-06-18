@@ -1704,7 +1704,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Project.Infraestructure/1.0.0": {
+      "travels.Infraestructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -1715,10 +1715,10 @@
           "Pomelo.EntityFrameworkCore.MySql.Design": "1.1.2"
         },
         "compile": {
-          "bin/placeholder/Project.Infraestructure.dll": {}
+          "bin/placeholder/travels.Infraestructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Project.Infraestructure.dll": {}
+          "bin/placeholder/travels.Infraestructure.dll": {}
         }
       }
     }
@@ -5695,17 +5695,17 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Project.Infraestructure/1.0.0": {
+    "travels.Infraestructure/1.0.0": {
       "type": "project",
-      "path": "../Infraestructure/Project.Infraestructure.csproj",
-      "msbuildProject": "../Infraestructure/Project.Infraestructure.csproj"
+      "path": "../Infraestructure/travels.Infraestructure.csproj",
+      "msbuildProject": "../Infraestructure/travels.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.IdentityModel.Tokens >= 6.31.0",
-      "Project.Infraestructure >= 1.0.0",
-      "System.IdentityModel.Tokens.Jwt >= 6.31.0"
+      "System.IdentityModel.Tokens.Jwt >= 6.31.0",
+      "travels.Infraestructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5715,9 +5715,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj",
-      "projectName": "LearningCenter.Domain",
-      "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\LearningCenter.Domain.csproj",
+      "projectUniqueName": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\travels.Domain.csproj",
+      "projectName": "travels.Domain",
+      "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\travels.Domain.csproj",
       "packagesPath": "C:\\Users\\Ryzen\\.nuget\\packages\\",
       "outputPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Domain\\obj\\",
       "projectStyle": "PackageReference",
@@ -5740,8 +5740,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Project.Infraestructure.csproj": {
-              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\Project.Infraestructure.csproj"
+            "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\travels.Infraestructure.csproj": {
+              "projectPath": "d:\\Users\\Ryzen\\Documents\\Visual Studio repos\\Desarrollo-Web-avances-BackEnd\\solution\\Infraestructure\\travels.Infraestructure.csproj"
             }
           }
         }
