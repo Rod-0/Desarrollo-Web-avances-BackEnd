@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
+    //[Authorize("admin,account")]
     [Route("api/[controller]")]
     [ApiController]
     public class TutorialControler : ControllerBase
@@ -36,7 +37,7 @@ namespace API.Controllers
 
 
         // GET: api/<Tutorial>
-        [Authorize("admin")]
+        //[Authorize(Roles ="admin")]
         [HttpGet(Name = "GetTutorials")]
         public async Task<List<TutorialResponse>> Get()
         {

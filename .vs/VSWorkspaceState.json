@@ -7,8 +7,8 @@
     "\\solution\\Domain",
     "\\solution\\Infraestructure",
     "\\solution\\Infraestructure\\Context",
-    "\\solution\\LearningCenter.Domain.Test"
+    "\\solution\\Infraestructure\\Models"
   ],
-  "SelectedNode": "\\solution\\Infraestructure\\Context\\LearningCenterDBContext.cs",
+  "SelectedNode": "\\solution\\API\\Mapper",
   "PreviewInSolutionExplorer": false
 }

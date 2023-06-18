@@ -29,7 +29,7 @@ namespace LearningCenter.API.Controllers
 
 
         // GET: api/User
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [HttpPost]
         [Route("Login")]
         public async Task<IActionResult> Login([FromBody] UserInput userInput)

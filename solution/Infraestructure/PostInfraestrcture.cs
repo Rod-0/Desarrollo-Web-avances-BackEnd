@@ -1,5 +1,4 @@
 ﻿using Infraestructure.Context;
-using LearningCenter.Infraestructure.Context;
 using LearningCenter.Infraestructure.Models;
 using Microsoft.EntityFrameworkCore;
 

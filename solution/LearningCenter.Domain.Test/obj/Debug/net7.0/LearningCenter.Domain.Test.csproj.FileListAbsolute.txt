@@ -124,3 +124,13 @@ d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solu
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\System.Diagnostics.EventLog.dll
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\LearningCenter.Shared.deps.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\LearningCenter.Shared.runtimeconfig.json
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\LearningCenter.Shared.exe
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\LearningCenter.Shared.dll
+d:\Users\Ryzen\Documents\Visual Studio repos\Desarrollo-Web-avances-BackEnd\solution\LearningCenter.Domain.Test\bin\Debug\net7.0\LearningCenter.Shared.pdb

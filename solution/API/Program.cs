@@ -6,6 +6,7 @@ using LearningCenter.Domain;
 using LearningCenter.Domain.Interfaces;
 using LearningCenter.Infraestructure;
 using LearningCenter.Infraestructure.Interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,6 +36,14 @@ var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
 builder.Services.AddAutoMapper(
     typeof(ModelToResponse),
     typeof(InputToModel));
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+});
+
 
 builder.Services.AddDbContext<LearningCenterDBContext>(
     dbContextOptions =>
