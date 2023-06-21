@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LearningCenter.API.Controllers
 {
-    [AllowAnonymous]
+    
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
@@ -29,14 +29,14 @@ namespace LearningCenter.API.Controllers
 
 
         // GET: api/User
-        //[AllowAnonymous]
+        [AllowAnonymous]
         [HttpPost]
         [Route("Login")]
-        public async Task<IActionResult> Login([FromBody] UserInput userInput)
+        public async Task<IActionResult> Login([FromBody] UserLoginInput userInput)
         {
             try
             {
-                var user = _mapper.Map<UserInput, User>(userInput);
+                var user = _mapper.Map<UserLoginInput, User>(userInput);
 
                 var jwt = await _userDomain.Login(user);
 

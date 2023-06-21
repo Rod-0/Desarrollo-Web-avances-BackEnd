@@ -9,14 +9,16 @@ using LearningCenter.Infraestructure.Models;
 using LearningCenter.Infraestructure;
 using LearningCenter.Domain;
 using Microsoft.AspNetCore.Authorization;
+using LearningCenter.API.Filter;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 
 
-namespace API.Controllers
+namespace LearningCenter.API.Controllers
 {
-    [Authorize("admin,manager")]
+    //[Authorize("admin,account")]
+    [Filter.Authorize("admin,account")]
     [Route("api/[controller]")]
     [ApiController]
     public class TutorialControler : ControllerBase
@@ -37,7 +39,7 @@ namespace API.Controllers
 
 
         // GET: api/<Tutorial>
-        
+        [Filter.Authorize("admin")]
         [HttpGet(Name = "GetTutorials")]
         public async Task<List<TutorialResponse>> Get()
         {

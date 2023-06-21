@@ -25,7 +25,7 @@ public class PostInfraestructure : IPostInfraestructure
     }
 
     public async Task<bool> CreateAsync(Post input)
-    {
+    {  
         _learningCenterDbContext.Posts.Add(input);
         await _learningCenterDbContext.SaveChangesAsync();
         return true;

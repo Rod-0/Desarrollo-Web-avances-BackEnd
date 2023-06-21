@@ -2,6 +2,7 @@ using Domain;
 using Infraestructure;
 using Infraestructure.Context;
 using LearningCenter.API.Mapper;
+using LearningCenter.API.Middleware;
 using LearningCenter.Domain;
 using LearningCenter.Domain.Interfaces;
 using LearningCenter.Infraestructure;
@@ -43,6 +44,8 @@ builder.Services.AddAuthentication(options =>
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+
+
 });
 
 
@@ -68,6 +71,10 @@ using (var context = scope.ServiceProvider.GetService<LearningCenterDBContext>()
     context.Database.EnsureCreated();
 }
 
+app.UseCors(x => x
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader());
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -75,6 +82,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<JwtMiddleware>();
 
 app.UseHttpsRedirection();
 

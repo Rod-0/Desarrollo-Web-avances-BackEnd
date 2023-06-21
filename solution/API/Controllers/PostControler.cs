@@ -11,11 +11,13 @@ using LearningCenter.API.Input;
 using LearningCenter.API.Response;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authorization;
+using LearningCenter.API.Filter;
 
 namespace LearningCenter.API.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize("admin")]
+    
+    [Filter.Authorize("admin")]
     [ApiController]
     public class PostController : ControllerBase
     {
@@ -46,7 +48,7 @@ namespace LearningCenter.API.Controllers
         }
 
         // POST: api/Post
-        [HttpPost("{id}", Name = "CreatePost")]
+        [HttpPost("{id}",Name = "CreatePost")]
         public async Task<IActionResult> Post([FromBody] PostInput postInput)
         {
             var post = _mapper.Map<PostInput, Post>(postInput);

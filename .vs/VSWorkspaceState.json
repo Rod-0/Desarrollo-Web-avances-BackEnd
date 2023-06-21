@@ -3,12 +3,8 @@
     "",
     "\\solution",
     "\\solution\\API",
-    "\\solution\\API\\Controllers",
-    "\\solution\\Domain",
-    "\\solution\\Infraestructure",
-    "\\solution\\Infraestructure\\Context",
-    "\\solution\\Infraestructure\\Models"
+    "\\solution\\API\\Controllers"
   ],
-  "SelectedNode": "\\solution\\API\\Mapper",
+  "SelectedNode": "\\solution\\API\\Controllers\\UserControler.cs",
   "PreviewInSolutionExplorer": false
 }
