@@ -4,8 +4,10 @@
     "\\solution",
     "\\solution\\API",
     "\\solution\\API\\Controllers",
-    "\\solution\\API\\Response"
+    "\\solution\\API\\Response",
+    "\\solution\\Infraestructure",
+    "\\solution\\Infraestructure\\Models"
   ],
-  "SelectedNode": "\\solution\\API\\Response\\PostResponse.cs",
+  "SelectedNode": "\\solution\\Infraestructure\\Models\\Post.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -6,7 +6,7 @@ public interface IPostInfraestructure
 {
 
     Task<List<Post>> GetAll();
-    Post GetById(int id);
+    Task<Post> GetById(int id);
     Task<bool> CreateAsync(Post input);
     bool Update(int id, Post input);
     bool Delete(int id);

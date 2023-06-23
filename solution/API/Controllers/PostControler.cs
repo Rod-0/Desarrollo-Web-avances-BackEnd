@@ -41,17 +41,17 @@ namespace LearningCenter.API.Controllers
         }
 
         // GET: api/Post/5
-        [HttpGet("{id}", Name = "GetPostById")]
-        public string Get(int id)
+        /*[HttpGet("{id}", Name = "GetPostById")]
+        public async Task<IActionResult> Get(int id)
         {
-            return "value";
-        }
+            return Ok();
+        }*/
 
         // POST: api/Post
-        [HttpPost("{id}",Name = "CreatePost")]
+        [HttpPost(Name = "CreatePost")]
         public async Task<IActionResult> Post([FromBody] PostInput postInput)
         {
-            var post = _mapper.Map<PostInput, Post>(postInput);
+            var post = _mapper.Map<PostInput, Post>(postInput); 
             await _postInfraestructure.CreateAsync(post);
 
             return Ok();

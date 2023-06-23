@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using LearningCenter.API.Input;
 using LearningCenter.Domain.Interfaces;
+using LearningCenter.Infraestructure.Interfaces;
 using LearningCenter.Infraestructure.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -20,11 +21,13 @@ namespace LearningCenter.API.Controllers
     {
         private IUserDomain _userDomain;
         private IMapper _mapper;
+        private IUserInfraestructure _userInfraestructure;
 
-        public UserController(IUserDomain userDomain, IMapper mapper)
+        public UserController(IUserDomain userDomain, IMapper mapper, IUserInfraestructure userInfraestructure)
         {
             _userDomain = userDomain;
             _mapper = mapper;
+            _userInfraestructure = userInfraestructure;
         }
 
 
@@ -64,6 +67,9 @@ namespace LearningCenter.API.Controllers
             else
                 return BadRequest();
         }
+
+       
+
 
     }
 }

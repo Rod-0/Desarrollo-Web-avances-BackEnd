@@ -19,10 +19,6 @@ public class PostInfraestructure : IPostInfraestructure
         return await _learningCenterDbContext.Posts.ToListAsync();
     }
 
-    public Post GetById(int id)
-    {
-        throw new NotImplementedException();
-    }
 
     public async Task<bool> CreateAsync(Post input)
     {  
@@ -37,6 +33,11 @@ public class PostInfraestructure : IPostInfraestructure
     }
 
     public bool Delete(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    Task<Post> IPostInfraestructure.GetById(int id)
     {
         throw new NotImplementedException();
     }
